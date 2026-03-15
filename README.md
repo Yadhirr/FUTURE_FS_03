@@ -49,8 +49,5 @@ This website was designed as a client-style solution for a local gym business. I
 ## Form Note
 The enquiry form is **front-end functional**. It validates input and stores demo submissions in the browser using localStorage.
 
-## Suggested GitHub Repo Name
-`Fit 24 Gyms-website`
-
 ## Summary
 This project demonstrates how a simple, fast, and mobile-friendly website can help a local gym improve its online presence and attract more customers.
