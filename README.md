@@ -34,6 +34,7 @@ This website was designed as a client-style solution for a local gym business. I
 ## Project Structure
 .
 ├── index.html
+├── images
 ├── style.css
 ├── script.js
 ├── PROJECT_DESCRIPTION.md
