@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!--Core page metadata for SEO, responsive behavior,typography, and the main stylesheet-->
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Fit24 Oceans gym website - memberships, services, reviews carousel, embedded map, and premium black-and-white visuals in one modern website." />
+  <title>Fit24 Oceans | Premium Gym Experience</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Decorative ambient background glow -->
+  <div class="background-glow" aria-hidden="true"></div>
+
+  <!-- HEADER / NAVIGATION  -->
+  <header class="site-header">
+    <div class="container nav-wrapper">
+      <a href="#home" class="brand" aria-label="Fit24 Oceans home">
+        <span class="brand-mark">F24</span>
+        <span>
+          <strong>FIT24 OCEANS</strong>
+          <small>Performance Gym</small>
+        </span>
+      </a>
+
+      <!-- Mobile menu toggle -->
+      <button class="menu-toggle" id="menuToggle" aria-label="Open navigation menu" aria-expanded="false" aria-controls="mobileNav">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <!-- Desktop navigation -->
+      <nav class="desktop-nav" aria-label="Main navigation">
+        <a href="#home">Home</a>
+        <a href="#services">Services</a>
+        <a href="#schedule">Schedule</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#about">About</a>
+        <a href="#reviews">Reviews</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <a href="#contact" class="btn btn-outline desktop-cta">Join Now</a>
+    </div>
+
+    <!-- Mobile navigation -->
+    <nav class="mobile-nav" id="mobileNav" aria-label="Mobile navigation">
+      <a href="#home">Home</a>
+      <a href="#services">Services</a>
+      <a href="#schedule">Schedule</a>
+      <a href="#pricing">Pricing</a>
+      <a href="#about">About</a>
+      <a href="#reviews">Reviews</a>
+      <a href="#contact">Contact</a>
+      <a href="#contact" class="btn btn-solid mobile-cta">Join Now</a>
+    </nav>
+  </header>
+
+  <main>
+    <!--HERO SECTION -->
+    <section class="hero section" id="home">
+      <div class="container hero-grid">
+        <div class="hero-copy fade-up">
+          <p class="eyebrow">Train Strong. Stay Consistent.</p>
+          <h1>Luxury training at Fit24 Oceans.</h1>
+          <p class="hero-text">
+            A premium gym experience with modern facilities, expert coaching, and a community that supports your fitness journey.
+          </p>
+          <div class="hero-actions">
+            <a href="#contact" class="btn btn-solid">Book a Free Trial</a>
+            <a href="#services" class="btn btn-outline">Explore Services</a>
+          </div>
+          <div class="stats-grid">
+            <article class="stat-card"><h3>24/7</h3><p>Extended access</p></article>
+            <article class="stat-card"><h3>3</h3><p>Core training zones</p></article>
+            <article class="stat-card"><h3>1</h3><p>Prime location</p></article>
+            <article class="stat-card"><h3>Fast</h3><p>Call & WhatsApp contact</p></article>
+          </div>
+        </div>
+
+        <div class="hero-panel fade-up delay-1">
+          <div class="hero-panel-grid">
+            <article class="panel panel-light">
+              <p class="mini-label">Member Focused</p>
+              <h2>Results with Structure</h2>
+              <p>Take action to achieve your fitness goals with our structured approach.</p>
+            </article>
+            <article class="panel panel-dark">
+              <p class="mini-label">Why This Approach Works</p>
+              <ul class="check-list">
+                <li>Premium approach to each member</li>
+                <li>Personalised attention and support</li>
+                <li>Guaranteed results with commitment</li>
+              </ul>
+            </article>
+          </div>
+          <div class="contact-cards">
+            <article class="tiny-card"><h3>Hours</h3><p>Open 24hours</p><span>Built for busy schedules</span></article>
+            <article class="tiny-card"><h3>Call / WhatsApp</h3><p>(031) 065 8643</p><span>Quick responses</span></article>
+            <article class="tiny-card"><h3>Location</h3><p>Oceans Mall</p><span>Umhlanga Rocks</span></article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--SERVICES SECTION - Each service image is wrapped in a frame that keeps the full image visible without cropping.-->
+    <section class="section" id="services">
+      <div class="container">
+        <div class="section-heading fade-up">
+          <p class="eyebrow">Services</p>
+          <h2>Everything members need in one place</h2>
+          <p>Each service card assists you to understand your needs.</p>
+        </div>
+
+        <div class="card-grid three-up">
+          <article class="content-card fade-up">
+            <div class="card-image-frame"><img src="images/service-strength.png" alt="Strength training visual" class="card-image" /></div>
+            <h3>Strength Training</h3>
+            <p>Modern resistance-focused training designed for power, muscle, and measurable progress.</p>
+            <a href="#contact" class="text-link">Enquire now →</a>
+          </article>
+
+          <article class="content-card fade-up delay-1">
+            <div class="card-image-frame"><img src="images/service-coaching.png" alt="Personal coaching visual" class="card-image" /></div>
+            <h3>Personal Coaching</h3>
+            <p>Focused support and accountability for members who want more structure and faster progress.</p>
+            <a href="#contact" class="text-link">Enquire now →</a>
+          </article>
+
+          <article class="content-card fade-up delay-2">
+            <div class="card-image-frame"><img src="images/service-functional.png" alt="Functional fitness visual" class="card-image" /></div>
+            <h3>Functional Fitness</h3>
+            <p>Conditioning, movement quality, and performance-driven sessions for practical athleticism.</p>
+            <a href="#contact" class="text-link">Enquire now →</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- SCHEDULE SECTION -->
+    <section class="section section-contrast" id="schedule">
+      <div class="container">
+        <div class="section-heading fade-up">
+          <p class="eyebrow">Suggested Weekly Flow</p>
+          <h2>Simple structure. Clear decisions.</h2>
+          <p>Our suggested weekly flow provides a balanced approach to fitness, ensuring you get the most out of your time at the gym.</p>
+        </div>
+        <div class="card-grid three-up">
+          <article class="content-card schedule-card fade-up">
+            <div class="card-top"><h3>Monday</h3><span>⏰</span></div>
+            <ul class="stack-list"><li>6:00 AM - Conditioning</li><li>5:30 PM - Strength Focus</li><li>6:30 PM - Stretch & Recovery</li></ul>
+          </article>
+          <article class="content-card schedule-card fade-up delay-1">
+            <div class="card-top"><h3>Wednesday</h3><span>⏰</span></div>
+            <ul class="stack-list"><li>6:00 AM - Cardio Push</li><li>5:30 PM - Functional Circuit</li><li>6:30 PM - Core Session</li></ul>
+          </article>
+          <article class="content-card schedule-card fade-up delay-2">
+            <div class="card-top"><h3>Friday</h3><span>⏰</span></div>
+            <ul class="stack-list"><li>6:00 AM - Full Body Blast</li><li>5:30 PM - Strength & Speed</li><li>6:30 PM - Weekend Prep</li></ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!--PRICING SECTION -->
+    <section class="section" id="pricing">
+      <div class="container">
+        <div class="section-heading fade-up">
+          <p class="eyebrow">Pricing</p>
+          <h2>Membership options that are easy to compare</h2>
+      </div>
+        <div class="card-grid three-up pricing-grid">
+          <article class="pricing-card fade-up">
+            <p class="mini-label">Starter</p>
+            <h3>R399 <span>/ month</span></h3>
+            <p>Essential access for independent training.</p>
+            <ul class="check-list"><li>Gym floor access</li><li>Locker room access</li><li>Self-guided training</li></ul>
+            <a href="#contact" class="btn btn-solid alt">Choose Starter</a>
+          </article>
+          <article class="pricing-card featured fade-up delay-1">
+            <div class="pill">Popular</div>
+            <p class="mini-label dark">Pro</p>
+            <h3>R699 <span>/ month</span></h3>
+            <p>Ideal for consistent members who want full flexibility.</p>
+            <ul class="check-list dark-list"><li>Unlimited access</li><li>Group class access</li><li>Priority support</li></ul>
+            <a href="#contact" class="btn btn-dark">Choose Pro</a>
+          </article>
+          <article class="pricing-card fade-up delay-2">
+            <p class="mini-label">Elite</p>
+            <h3>R999 <span>/ month</span></h3>
+            <p>Premium support for higher-performance goals.</p>
+            <ul class="check-list"><li>Everything in Pro</li><li>Coaching consults</li><li>Priority training support</li></ul>
+            <a href="#contact" class="btn btn-solid alt">Choose Elite</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!--ABOUT SECTION-->
+    <section class="section section-contrast" id="about">
+      <div class="container split-layout">
+        <div class="fade-up">
+          <div class="section-heading left-heading">
+            <p class="eyebrow">About Fit24 Oceans</p>
+            <h2>Built for trust, clarity, and more walk-ins</h2>
+            <p>We care about your fitness goals and provide the support you need to achieve them.</p>
+          </div>
+          <div class="about-image-wrap"><img src="images/about-gym.png" alt="Gym lifestyle collage" class="about-image" /></div>
+          <div class="mini-grid">
+            <article class="small-panel"><h3>Why it helps the business</h3><ul><li>Builds professionalism online</li><li>Answers questions quickly</li><li>Makes enquiries easier</li></ul></article>
+            <article class="small-panel"><h3>Best features</h3><ul><li>Responsive mobile design</li><li>Fast one-page navigation</li><li>Embedded map and direct actions</li></ul></article>
+          </div>
+        </div>
+        <aside class="quick-contact fade-up delay-1">
+          <h3>Quick Contact</h3>
+          <a href="tel:+27310655971" class="contact-item"><div><strong>Call the Gym</strong><span>(031) 065 5971</span></div></a>
+          <a href="https://wa.me/27310655971" target="_blank" rel="noreferrer" class="contact-item"><div><strong>WhatsApp Us</strong><span>Instant enquiry option</span></div></a>
+          <a href="#mapSection" class="contact-item"><div><strong>View Location</strong><span>Open the map below</span></div></a>
+        </aside>
+      </div>
+    </section>
+
+    <!-- REVIEWS SECTION - Automatic carousel that moves from right to left every2 seconds-->
+    <section class="section" id="reviews">
+      <div class="container">
+        <div class="section-heading fade-up">
+          <p class="eyebrow">Reviews</p>
+        </div>
+        <div class="reviews-carousel fade-up" aria-label="Sliding reviews carousel">
+          <div class="reviews-track" id="reviewsTrack">
+            <article class="review-card" aria-label="Review by L. Naidoo">
+              <div class="stars">★★★★★</div>
+              <p>“Clean setup, strong atmosphere, and everything feels easy to understand from the moment you arrive on the page.”</p>
+              <strong>L. Naidoo</strong>
+            </article>
+            <article class="review-card" aria-label="Review by A. Pillay">
+              <div class="stars">★★★★★</div>
+              <p>“The layout is modern and professional. The map, pricing, and contact options make the gym feel much more accessible online.”</p>
+              <strong>A. Pillay</strong>
+            </article>
+            <article class="review-card" aria-label="Review by J. Daniels">
+              <div class="stars">★★★★★</div>
+              <p>“The visual style feels premium and the navigation is very clear. It gives a strong first impression for new members.”</p>
+              <strong>J. Daniels</strong>
+            </article>
+            <article class="review-card" aria-label="Review by S. Khan">
+              <div class="stars">★★★★★</div>
+              <p>“This website answers the right questions quickly and makes it much easier to move from interest to enquiry.”</p>
+              <strong>S. Khan</strong>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--CONTACT SECTION-->
+    <section class="section section-contrast" id="contact">
+      <div class="container split-layout">
+        <div class="fade-up">
+          <div class="section-heading left-heading">
+            <p class="eyebrow">Contact</p>
+          </div>
+          <div class="info-stack">
+            <article class="info-box"><h3>Address</h3><p>Fit24, The Oceans Mall, Level 6, Lagoon Drive, Umhlanga Rocks, Umhlanga</p></article>
+            <article class="info-box"><h3>Phone</h3><p>(031) 065 5971</p></article>
+            <article class="info-box"><h3>Email</h3><p>fit24oceans@gmail.com</p></article>
+          </div>
+          <article class="map-card" id="mapSection">
+            <h3>Find Us on the Map</h3>
+            <p>Zoom, pan, and view the location directly inside the website.</p>
+            <div class="map-embed">
+              <iframe title="Fit24 Oceans Location Map" loading="lazy" allowfullscreen referrerpolicy="no-referrer-when-downgrade" src="https://maps.google.com/maps?q=Fit24%20The%20Oceans%20Mall%20Level%206%20Lagoon%20Drive%20Umhlanga%20Rocks%20Umhlanga&t=&z=16&ie=UTF8&iwloc=&output=embed"></iframe>
+            </div>
+          </article>
+        </div>
+        <div class="form-panel fade-up delay-1">
+          <h3>Request a Free Trial</h3>
+          <p>This form validates input in the browser and is ready to connect to a backend later.</p>
+          <form id="enquiryForm" novalidate>
+            <div class="form-row">
+              <label><span>Name</span><input type="text" name="name" placeholder="Your name" required></label>
+              <label><span>Email</span><input type="email" name="email" placeholder="Your email" required></label>
+            </div>
+            <label><span>Phone</span><input type="tel" name="phone" placeholder="Phone number"></label>
+            <label><span>Goal</span><textarea name="message" rows="5" placeholder="Tell us your fitness goal" required></textarea></label>
+            <div class="form-actions">
+              <button type="submit" class="btn btn-solid">Submit Enquiry</button>
+              <a href="https://wa.me/27310655971" target="_blank" rel="noreferrer" class="btn btn-outline">WhatsApp Instead</a>
+            </div>
+            <p class="form-message" id="formMessage" aria-live="polite"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!--FOOTER-->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <div class="brand footer-brand">
+          <span class="brand-mark">F24</span>
+          <span><strong>FIT24 OCEANS</strong><small>Performance Gym</small></span>
+        </div>
+      </div>
+      <div class="footer-right">
+        <div class="socials"><a href="#" aria-label="Instagram">Instagram</a><a href="#" aria-label="Facebook">Facebook</a></div>
+        <p>© <span id="currentYear"></span> Fit24 Oceans. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
